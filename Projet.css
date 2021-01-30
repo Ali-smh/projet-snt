@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.subheader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #16a085;
+  color: white;
+}
+
+.subheader h2{
+  margin-left: -40px;
+  font-size: 15px;
+}
+
+.title span{
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.menu-elements{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 40px;
+  font-size: 16px;
+}
+
+.menu-elements p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+.header-login{
+  justify-content: center;
+  background-color: #16a085;
+  height: 100%;
+  width: 180px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.header-login p{
+
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header-login:hover{
+  color: #16a085;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.slider{
+  justify-content: space-around;
+  margin: 26px auto;
+  display: flex;
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.slider button{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  color: white;
+  background-color: #16a085;
+  box-shadow: 0 0 0.2em black;
+}
+
+.slider button:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid #16a085;
+}
+
+.item-infos{
+  font-weight: bold;
+}
+
+img{
+  height: 440px;
+}
+
+
+.slider-subheader{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #16a085;
+  font-weight: bold;
+  height: 80px;
+  align-items: center;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.presentation-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  background-image: url(https://www.idf-constructiondurable.fr/fileadmin/_processed_/b/d/csm_Lycee_Darius_Milhaud_fab7548593.jpg);
+  height: 500px;
+}
+
+.presentation-text-container{
+  position: absolute;
+  color: white;
+  background-color: rgba(24, 24, 24, 0.5);
+  height: auto;
+  width: 830px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
